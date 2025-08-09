@@ -68,7 +68,6 @@ class ParaphraserPipeline:
             },
             include_outputs_from=["generator"]
         )
-        print("Pipeline Input", query)
         return res["generator"]["replies"][0].text
     
 class ChatHistoryPipeline:
