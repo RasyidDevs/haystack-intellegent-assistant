@@ -204,3 +204,7 @@ __marimo__/
 internal/*
 .secret
 *.pptx
+
+#processfile
+process/*
+!process/research.ipynb
